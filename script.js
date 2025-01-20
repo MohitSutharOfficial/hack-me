@@ -1,3 +1,4 @@
+// javascrpt for the project
 tailwind.config = {
     theme: {
       extend: {
@@ -124,6 +125,7 @@ tailwind.config = {
     },
   }
 
+  // Lazy load images
 
   document.addEventListener('DOMContentLoaded', () => {
     const imageObserver = new IntersectionObserver((entries, observer) => {
@@ -235,4 +237,3 @@ tailwind.config = {
     document.body.classList.add('offline');
     console.log('Connection lost');
   });
-</script>

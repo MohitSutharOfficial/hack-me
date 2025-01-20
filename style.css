@@ -1,7 +1,7 @@
 
 * {
     -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;     /* Firefox */
+    scrollbar-width: none;     /* Firefox  FOR BETTER utilization*/
   }
   
   /* Webkit browsers like Chrome, Safari, newer Edge */
